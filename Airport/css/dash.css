@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+        background-color: #255b75;
+}
+.add-f{
+    margin-top: 70px;
+    text-align: center;
+    background-color: #dcf5f2a8;;
+    border-radius: 2%;
+    width: 56%;
+    padding: 18px;
+}
+.add-f h1{
+        font-weight: 800;
+    font-family: fangsong;
+    color: #255b75;
+
+}
+.add-form{
+     background-color: #255b75;
+    padding: 39px;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+.add-form .form-control{
+   
+    width: 95%;
+    margin-bottom: 16px;
+}
+
+.add{
+    background-color: #9ec0c7;
+    border: none;
+    border-radius: 7%;
+    padding: 6px;
+    color: #255b75;
+    font-size: large;
+    font-family: fangsong;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0px #ffffff8c;
+}
+
+.add:hover{
+    color: white;
+    background-color:  #5108fc;
+}
+.show{
+        line-height: 27;
+    text-align: right;
+}   
+.show .show-f {
+    box-shadow: -1px 4px 15px 3px #0c1e27f0;
+    background-color: #9ec0c7;
+    border: none;
+    color: #255b75;
+    font-size: larger;
+    font-family: auto;
+    font-weight: 800;
+    padding: 15px;
+
+}
+.delet{
+    text-align: center;
+    background-color: #1d7ead;
+    padding: 30px;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 150px;
+    color: #9ec0c7;
+    position: absolute;
+    top: 0;
+   
+}
+.remove{
+        background: none;
+    border: none;
+    color: #d20e0e;
+    font-size: small;
+}
+.remove:hover{
+    border: 1px solid red;
+    color: whitesmoke;
+    padding: 3px;
+}
+.show .show-f:hover
+{
+      background-color: #5108fc;
+      color: whitesmoke;
+}
+.show .modal{
+line-height: 1;
+text-align: left;
+}
+.modal-content{
+    width: max-content;
+    background-color: #9ec0c7;
+}
